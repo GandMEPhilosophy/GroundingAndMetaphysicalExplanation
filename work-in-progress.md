@@ -2,30 +2,14 @@
 layout: post
 title: Work-In-Progress
 ---
-
-This is where the join text will go. Copy + Paste. 
-
-Below is html for figure insertion.
-
-To add URL, follow this synatx: [Wikipedia](https://en.wikipedia.org/wiki/Christopher_Hitchens):
-
-To make something indented, put > in front of the paragraph as below
-
-<figure>
-  <img alt="Socrates" src="assets/images/set_of_soc.jpg" />
-  <figcaption>
-      Pic caption goes here.
-  </figcaption>
-</figure>
-
-From 
-
->Hey, Im indented!
-
-``and I am code``
-
-1. I enjoy markdown
-2. It works automatically 
-
-* how about this
-* or this
+<h2>Grounding and Metaphysical Explanation</h2>
+<br>
+<a href="https://www.jamesclarkross.co.uk/philosophy/Semester 1 - 2023-24.pdf" style="text-decoration: none; border-bottom: 1px solid lightgrey">Work-in-Progress Group, 2023&ndash;24, Semester 1</a> <br>(last updated: 21/09/2023)
+<br>
+<br>
+<a href="https://www.jamesclarkross.co.uk/philosophy/Semester 2 - 2022-23.pdf" style="text-decoration: none; border-bottom: 1px solid lightgrey">Work-in-Progress Group, 2022&ndash;23, Semester 2</a> <br>(last updated: 16/01/2023)
+<br>
+<br>
+<a href="https://www.jamesclarkross.co.uk/philosophy/Semester 1 - 2022-23.pdf" style="text-decoration: none; border-bottom: 1px solid lightgrey">Work-in-Progress Group, 2022&ndash;23, Semester 1</a> <br>(last updated: 07/12/2022)
+<br>
+<br>

@@ -762,4 +762,250 @@ figcaption {
   color: #64644B;
 }
 
+body {
+  background: white;
+  color: #0b0404;
+  font-family: "EB Garamond", Garamond, "Times New Roman", serif;
+  font-size: 1.3125em;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0.5em auto;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 1em auto;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin: 1.3333em auto;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.25em;
+  font-style: italic;
+  margin: 1.875em auto;
+  text-align: center;
+}
+
+h5 {
+  font-size: 1em;
+  font-style: italic;
+  margin: 2em auto;
+  text-align: center;
+}
+
+h6 {
+  font-size: 0.875em;
+  font-style: italic;
+  margin: 2.25em auto;
+  text-align: center;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+a {
+  color: #0b0404;
+}
+
+a:focus {
+  outline: 1px dashed #0b0404;
+}
+
+blockquote {
+  margin: 2em auto;
+  opacity: 0.8;
+}
+blockquote > * {
+  padding: 0 3em;
+}
+
+blockquote.epigraph {
+  font-style: italic;
+}
+
+small {
+  font-size: 0.75em;
+}
+
+p > cite {
+  display: block;
+  text-align: right;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border: 0;
+  display: block;
+  width: 152px;
+  height: 12px;
+  margin: 0.5em auto 0;
+  background: url(http://localhost:4000/assets/images/divider.svg) no-repeat top center;
+  margin: 4em 0;
+}
+
+img {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  margin: 2em auto;
+}
+
+figure img {
+  margin: 2em auto 1em;
+}
+
+figcaption {
+  font-size: 0.875em;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 2em;
+  opacity: 0.7;
+}
+
+.divided::after {
+  content: "";
+  border: 0;
+  display: block;
+  width: 152px;
+  height: 12px;
+  margin: 0.5em auto 0;
+  background: url(http://localhost:4000/assets/images/divider.svg) no-repeat top center;
+}
+
+.home {
+  max-width: 24em;
+  margin: auto;
+  padding: 4em 1em;
+}
+
+.content-title {
+  font-size: 2em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.post-date {
+  color: #64644B;
+  display: block;
+  font-size: 0.825em;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+.post-link .post-date {
+  padding: 0.5em 0;
+}
+
+.site-credits {
+  margin: 0 auto 2em;
+  padding: 0 2em;
+  text-align: center;
+}
+
+.skip-navigation {
+  background: #fede00;
+  border: 1px dashed transparent;
+  display: block;
+  font-size: 0.875em;
+  font-weight: 700;
+  margin-top: -2.625rem;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.skip-navigation:hover, .skip-navigation:focus {
+  background: #ffe00c;
+  border-color: #0b0404;
+  margin-top: 0;
+}
+
+/* eb-garamond-regular - latin */
+@font-face {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url("http://localhost:4000/assets/fonts/eb-garamond-v9-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local("EB Garamond Regular"), local("EBGaramond-Regular"), url("http://localhost:4000/assets/fonts/eb-garamond-v9-latin-regular.eot?#iefix") format("embedded-opentype"), url("http://localhost:4000/assets/fonts/eb-garamond-v9-latin-regular.woff2") format("woff2"), url("http://localhost:4000/assets/fonts/eb-garamond-v9-latin-regular.woff") format("woff"), url("http://localhost:4000/assets/fonts/eb-garamond-v9-latin-regular.ttf") format("truetype"), url("http://localhost:4000/assets/fonts/eb-garamond-v9-latin-regular.svg#EBGaramond") format("svg"); /* Legacy iOS */
+}
+.post {
+  background: white;
+  margin: 2em auto;
+  max-width: 60rem;
+  padding: 2em 0;
+  box-shadow: 12px 18px 24px rgba(0, 0, 0, 0.1);
+}
+
+.post > * {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 36rem;
+  padding: 0 1em;
+}
+
+.post > h1 {
+  font-size: 2em;
+  max-width: 48rem;
+  padding: 2em 1em;
+  text-align: center;
+}
+
+.post p {
+  text-align: justify;
+  text-indent: 1.5em;
+  text-justify: inter-word;
+}
+
+.post p:first-of-type,
+.post h2 + p {
+  text-indent: 0;
+}
+
+.post a:hover {
+  background: #fff5b2;
+}
+
+.post dl,
+.post ul,
+.post ol {
+  margin: 1.5em;
+}
+
+.post li {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.post-content:first-child {
+  margin-top: 4em;
+}
+
+.post-meta {
+  margin-bottom: 2em;
+  margin-top: 2em;
+  text-align: right;
+}
+
+.back-link {
+  display: inline-block;
+  font-size: 0.75em;
+  padding: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 /*# sourceMappingURL=main.css.map */

@@ -3,29 +3,6 @@ layout: post
 title: Workshops
 ---
 
-This is where the join text will go. Copy + Paste. 
-
-Below is html for figure insertion.
-
-To add URL, follow this synatx: [Wikipedia](https://en.wikipedia.org/wiki/Christopher_Hitchens):
-
-To make something indented, put > in front of the paragraph as below
-
-<figure>
-  <img alt="Socrates" src="assets/images/set_of_soc.jpg" />
-  <figcaption>
-      Pic caption goes here.
-  </figcaption>
-</figure>
-
-From 
-
->Hey, Im indented!
-
-``and I am code``
-
-1. I enjoy markdown
-2. It works automatically 
-
-* how about this
-* or this
+<a href="https://www.jamesclarkross.co.uk/philosophy/GandME Workshop 2023.pdf" style="text-decoration: none; border-bottom: 1px solid lightgrey">Workshop 2023</a> <br>(last updated: 14/06/2023)
+<br>
+<br>
