@@ -5,17 +5,15 @@
 
 $asset_url: '{{ '/assets' | absolute_url }}';
 
-@use
-  "reset.scss",
-  "variables",
-  "syntax-highlighting",
-  "mixins",
-  "font",
-  "base",
-  "masthead",
-  "menu",
-  "post-list",
-  "article",
-  "footnotes",
-  "search"
-;
+@import "_reset.scss";
+@import "_variables";
+@import "_syntax-highlighting";
+@import "_mixins";
+@import "_font";
+@import "_base";
+@import "_masthead";
+@import "_menu";
+@import "_post-list";
+@import "_article";
+@import "_footnotes";
+@import "_search";
