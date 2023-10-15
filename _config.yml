@@ -18,9 +18,10 @@ email: jross597@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Grounding conference, workshops and work-in-progress group
 baseurl: "/GroundingAndMetaphysicalExplanation" # the subpath of your site, e.g. /blog
-url: "https://dangerdika.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-icon: /assets/images/set_of_soc.jpg
-
+#url: "https://dangerdika.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+icon: /favicon.ico
+favicon: /favicon.ico
+apple-touch-icon: /apple-touch-icon.png
 # Build settings
 markdown: kramdown
 
@@ -38,6 +39,7 @@ markdown: kramdown
 
 plugins:
   - jekyll-paginate
+  - jekyll-seo-tag
 
 paginate: 3
 paginate_path: "/page/:num/"
