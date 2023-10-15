@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Work-In-Progress
+title: Work-In-Progress Group
 ---
 <h2>Grounding and Metaphysical Explanation</h2>
 <br>
