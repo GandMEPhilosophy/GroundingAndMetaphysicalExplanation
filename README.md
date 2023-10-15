@@ -3,24 +3,47 @@ layout: page
 title: ""
 ---
 
-Undoubtably one of the great minds of our time, [Christopher Hitchens](https://en.wikipedia.org/wiki/Christopher_Hitchens) challenged his readers to think deeply on topics of politics, religion, war, and science. This Jekyll theme's design is inspired by the trade paperback version his book, [Arguably](https://en.wikipedia.org/wiki/Arguably), and is dedicated to his memory.
+## System set-up
 
-## Quick Start
+1. Make a github account.
+2. send it to Dika who will add you to the repo.
 
-This theme is, itself, a Jekyll blog, meaning the code base you see has everything you need to run a Jekyll powered blog!
+Download:
+3. PyCharm (community edition)
+4. Github desktop
 
-To get started quickly, follow the instructions below:
+5. Log into Github Desktop with your Github account. 
+6. Go to the website repo on github.com and click on the large button that says 'clone'. 
+7. Choose 'open with github desktop'. 
+8. Choose where you want to save the repo locally. 
+9. Press accept.
 
-1. Click the `Fork` button at the top of [the repository](https://github.com/patdryburgh/hitchens/);
-2. Go to your forked repo's `Settings` screen;
-3. Scroll down to the `GitHub Pages` section;
-4. Under `Source`, select the `Master` branch;
-5. Hit `Save`.
-6. Follow [Jekyll's instructions to configure your new Jekyll site](https://jekyllrb.com/docs/configuration/).
+Once you see it in your GitHub desktop, click on 'open in Pycharm' in the middle of the screen. This
+will open your repo in Pycharm and you'll be able to update/amend the code.
 
-## Manual Installation
+To see the local version of your website so you can see how your changes look, you'll need to host it locally. To do that:
+10. Click on 'Terminal' at the bottom of your Pycharm screen.
+11. If this is the first time youre doing this, you will need to type in 'bundle install' and enter. This will install the packages
+you need to locally host. Skip this step if youve already done this.If this throws errors, contact Dika. You will only have to do this once.
+12. Type 'bundle exec jekyll serve' to render the page locally. 
+13. Click on the link you see in your terminal now (looks something like 127.0.0.0:localhost). This will open the local version
+of the website in your browser. You can start applying changes now. Whenever you change something in the pycharm, refresh the page on your
+browser to see how it looks.
 
-If you've already created your Jekyll site or are comfortable with the command line, you can follow [Jekyll's Quickstart instructions](https://jekyllrb.com/docs/) add this line to your Jekyll site's `Gemfile`:
+
+## Updating the website
+
+14. Before you start changing your code, go back to Github.com onto the repo and click on 'issues'.
+15. Select the issue you want to work on or press 'new issue' and write in what you will do (e.g. 'update about page'). 
+16. Press submit new issue. This will publish the issue to the repo so everyone knows the changes youre about to apply. 
+17. On the right-hand side press on 'create branch'. Choose 'open branch with github desktop. 
+18. Press the 'create branch' button. This will be the branch you will work on so your changes are not applied until they are finished.
+19. Apply changes on your Pycharm (see instructions below). Check them using 'bundle exec jekyll serve'.
+20. When youre happy with the changes, go to your GitHub desktop.
+21. The changes youre about to push are on the left-hand side of the screen. Untick everything that starts with .idea/ or _site/ - those
+are local files we dont need on the repo. Ensure the items which are ticked are only the ones you just worked on.
+22. At the bottom of the left-hand side, type a summary of the changes (e.g. updated about page with contact details). 
+23. Click on 'commit to [BRANCH NAME]'
 
 ```ruby
 gem "hitchens-theme"
