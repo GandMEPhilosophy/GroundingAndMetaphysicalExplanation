@@ -43,7 +43,8 @@ browser to see how it looks.
 21. The changes youre about to push are on the left-hand side of the screen. Untick everything that starts with .idea/ or _site/ - those
 are local files we dont need on the repo. Ensure the items which are ticked are only the ones you just worked on.
 22. At the bottom of the left-hand side, type a summary of the changes (e.g. updated about page with contact details). 
-23. Click on 'commit to [BRANCH NAME]'
+23. Click on 'commit to [BRANCH NAME]'.
+24. Press 'push origin' on the top line 
 
 ```ruby
 gem "hitchens-theme"
