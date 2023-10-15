@@ -1,0 +1,45 @@
+
+This is where the join text will go. Copy + Paste. 
+
+Below is html for figure insertion.
+
+<!-- modify this form HTML and place wherever you want your form -->
+
+<form
+  action="https://formspree.io/f/xjvqjrag"
+  method="POST"
+>
+  <label><br>
+    Your email:<br>
+    <input type="email" name="email"><br><br>
+  </label>
+  <label>
+    Your message:<br>
+    <textarea name="message"></textarea><br><br>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+
+To add URL, follow this synatx: [Wikipedia](https://en.wikipedia.org/wiki/Christopher_Hitchens):
+
+To make something indented, put > in front of the paragraph as below
+
+<figure>
+  <img alt="Socrates" src="assets/images/set_of_soc.jpg" />
+  <figcaption>
+      Pic caption goes here.
+  </figcaption>
+</figure>
+
+From 
+
+>Hey, Im indented!
+
+``and I am code``
+
+1. I enjoy markdown
+2. It works automatically 
+
+* how about this
+* or this

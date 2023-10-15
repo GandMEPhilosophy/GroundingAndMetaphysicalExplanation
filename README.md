@@ -53,26 +53,21 @@ code with a blue button that says 'Compare & Pull Request'. Click on it.
 This method ensures no work is ever lost or any changes applied in error. This is best practice.
 
 
-## Usage
+## Website layout
 
-### Home Layout
+This is a simple website. All you can see on the landing page is defined in:
+``_layouts/home.html``
 
-The `home` layout presents a list of articles ordered chronologically. The theme uses [Jekyll's built-in pagination](https://jekyllrb.com/docs/pagination/#enable-pagination) which can be configured in your `_config.yml` file.
+The items in the menu are defined in
+``_data/menu.yml``
 
-The masthead of the home page is derived from the `title` and `description` set in your site's `_config.yml` file.
+The about.md page, join.md page, work in progress.md and workshops.md are located at base level.
+Apply changes in html language to those pages. Syntax examples are in Syntax_Examples.md for your convenience 
+and include things such as how to add a url, how to indent your writing, how to add an image. Copy and paste from this 
+file.
 
-#### Navigation
+If you wish to add a page, copy and paste one of the .md pages (e.g join.md) and name it something descriptive (e.g. 'contact.md').
+Change the title at the top of the new .md file but leave the layout as post. When youre done, add it to 
+the menu in the _data/menu.yml by following the syntax in that file.
 
-To include a navigation menu in your site's masthead and footer:
-
-1. Create a `_data` directory in the root of your site.
-2. Add a `menu.yml` file to the `_data` directory.
-3. Use the following format to list your menu items:
-
-```
-- title: About
-  url: /about.html
-
-- title: Source
-  url: https://github.com/patdryburgh/hitchens
-```
+If you get stuck, confused or otherwise - contact Dika.
