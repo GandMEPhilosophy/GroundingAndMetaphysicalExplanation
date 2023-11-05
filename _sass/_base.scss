@@ -115,7 +115,6 @@ figcaption {
 .home {
   max-width: 24em;
   margin: auto;
-  padding: 4em 1em;
 }
 
 .content-title {
@@ -135,10 +134,21 @@ figcaption {
   }
 }
 
+#success_message{ display: none;}
+
 .site-credits {
   margin: 0 auto 2em;
   padding: 0 2em;
   text-align: center;
+}
+
+.footer {
+    display: center;
+    text-align: center;
+    padding: 2em 0 0 0;
+    border-top: 2px solid #dddddd;
+    font-size: .7em;
+    color: #b3b3b3;
 }
 
 .skip-navigation {
