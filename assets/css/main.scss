@@ -16,4 +16,3 @@ $asset_url: '{{ '/assets' | absolute_url }}';
 @import "_post-list";
 @import "_article";
 @import "_footnotes";
-@import "_search";

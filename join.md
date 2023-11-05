@@ -8,15 +8,14 @@ title: Join
 <fieldset>
 <legend style="text-align: left;margin-top:15px;"></legend>
 
-
 <!-- Text input-->
 
 <div class="form-group">
-  <label class="col-md-4 control-label" >Name</label> 
+  <label class="col-md-4 control-label" >Full name</label> 
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
   <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-  <input name="Name" class="form-control"  type="text" required>
+  <input name="Full name" class="form-control"  type="text" required>
     </div>
   </div>
 </div>
@@ -86,11 +85,6 @@ title: Join
     </div>
 </div>
 
-
-
-<!-- Success message -->
-<div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div>
-
 <!-- Button -->
 <div class="form-group">
   <label class="col-md-4 control-label"></label>
@@ -98,7 +92,6 @@ title: Join
     <button type="submit" class="btn btn-warning" > Submit <span class="glyphicon glyphicon-send"></span></button>
   </div>
 </div>
-
 </fieldset>
 </form>
 <br>
