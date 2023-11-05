@@ -16,18 +16,30 @@ title: Join
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
   <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-  <input name="last_name" class="form-control"  type="text" required>
+  <input name="Name" class="form-control"  type="text" required>
     </div>
   </div>
 </div>
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label">University and position/status</label>  
+  <label class="col-md-4 control-label">University affiliation</label>  
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
     <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-    <input name="email" class="form-control"  type="text" required>
+    <input name="University" class="form-control"  type="text" required>
+    </div>
+  </div>
+</div>
+
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label">Position / status</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+    <input name="Position" class="form-control"  type="text" required>
     </div>
   </div>
 </div>
@@ -40,7 +52,7 @@ title: Join
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-  <input name="phone" class="form-control" type="text" required>
+  <input name="Specialism" class="form-control" type="text" required>
     </div>
   </div>
 </div>
@@ -52,7 +64,7 @@ title: Join
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-  <input name="address" class="form-control" type="text" required>
+  <input name="Email" class="form-control" type="text" required>
     </div>
   </div>
 </div>
@@ -63,12 +75,12 @@ title: Join
     <div class="col-md-4">
     <div class="radio">
     <label>
-        <input type="radio" name="hosting" value="yes" /> Yes
+        <input type="radio" name="Want to present?" value="yes" /> Yes
     </label>
     </div>
     <div class="radio">
     <label>
-    <input type="radio" name="hosting" value="no" /> No
+    <input type="radio" name="Want to present?" value="no" /> No
     </label>
     </div>
     </div>
