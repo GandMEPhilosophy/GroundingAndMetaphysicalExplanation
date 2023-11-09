@@ -9,7 +9,7 @@ Welcome to the home of <em>Grounding and Metaphysical Explanation</em>.
 On this website you will find details of all our <a href="/work-in-progress">Work-in-Progress</a> and <a href="/workshop">Workshop</a> events.
 <br>
 <h3>Aims</h3>
-<em>Grounding and Metaphysical Explanation</em> is a group for philosophers interested in issues of grounding and metaphysical explanation. It is run by <a href=" https://willmoorfoot.weebly.com/" target="_blank" rel="noreferrer noopener">Will Moorfoot</a> and <a href=" https://www.jamesclarkross.co.uk/" target="_blank" rel="noreferrer noopener">James Ross</a>, of the University of Southampton. Will works on contingentist formulations of ground physicalism. James works on the relationship between grounding and causation.
+<em>Grounding and Metaphysical Explanation</em> is a group for philosophers interested in issues of grounding and metaphysical explanation. It is run by <a href=" https://willmoorfoot.weebly.com/" target="_blank" rel="noreferrer noopener">Will Moorfoot</a> and <a href="https://www.jamesclarkross.co.uk/" target="_blank" rel="noreferrer noopener">James Ross</a>, of the University of Southampton. Will works on contingentist formulations of ground physicalism. James works on the relationship between grounding and causation.
 <br>
 <br>
 The <a href="/work-in-progress">Work-in-Progress</a> arm of <em>Grounding and Metaphysical Explanation</em> was set up in September 2022. The aim was—and still is—to host speakers presenting their unfinished papers. Six 1.5-hour sessions take place fortnightly across each semester. Typically, a 45-minute presentation is followed by questions and discussion.
@@ -18,7 +18,7 @@ The <a href="/work-in-progress">Work-in-Progress</a> arm of <em>Grounding and Me
 The first <em>Grounding and Metaphysical Explanation</em> <a href="/workshop">Workshop</a> was held at the University of Southampton in June 2023 with the aim of bringing together experts on grounding and metaphysical explanation from around the world. Keep your eyes peeled for the announcement of our 2024 Workshop.
 <br>
 <h3>Joining</h3>
-You can register to join the group <a href="/join" target="_blank" rel="noreferrer noopener">here</a>.
+You can register to join the group <a href="/join" rel="noreferrer noopener">here</a>.
 <br>	
 <br>
 The group is particularly aimed at academics and postgraduate researchers. However, please do still contact us if you are interested in joining and do not meet these criteria (our contact details are below).
