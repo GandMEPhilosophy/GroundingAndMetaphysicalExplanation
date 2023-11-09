@@ -34,7 +34,6 @@ We are happy to interpret the theme of grounding and metaphysical explanation br
 <li>Applications of grounding and metaphysical explanation to areas such as ethics, philosophy of mind, wider issues in metaphysics, philosophy of science, social ontology, and philosophy of mathematics.</li>
 <li>More historically-minded approaches.</li>
 </ul>
-<br>
 <h3>Contact</h3>
 <div align="left">
 <b><em>Grounding and Metaphysical Explanation</em>:</b><br>
