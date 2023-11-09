@@ -2,8 +2,6 @@
 layout: post
 title: Work-In-Progress Group
 ---
-<h2>Grounding and Metaphysical Explanation</h2>
-<br>
 <a href="/GroundingAndMetaphysicalExplanation/assets/documents/Semester 1 - 2023-24.pdf" style="text-decoration: none; border-bottom: 1px solid lightgrey">Work-in-Progress Group, 2023&ndash;24, Semester 1</a> <br>(last updated: 21/09/2023)
 <br>
 <br>
